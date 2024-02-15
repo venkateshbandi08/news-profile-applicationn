@@ -1,0 +1,15 @@
+.news-card-container {
+    margin-top: 66px;
+    min-height: calc(100vh - 56px);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(245, 225, 225), rgb(247, 207, 207));
+  }
+
+.ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}

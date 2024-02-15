@@ -1,0 +1,75 @@
+.profile-bg-container {
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to bottom, rgb(248, 242, 242), rgb(245, 225, 225), rgb(247, 207, 207));
+}
+
+.profile-pic-container {
+    margin-top: 20px; /* Adjust the margin-top to position the profile picture vertically */
+    text-align: center;
+}
+
+.profile-pic {
+    width: 70px;
+    height: auto;
+    border-radius: 50%; 
+}
+.personal-info-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bio-text{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.personal-detail{
+    font-size: 19px;
+    margin-top: -5px;
+    background-color: lightcyan;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.personal-detail-name{
+    color: red;
+    font-weight: 'bold';
+}
+.nav-tabs-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+.tab-heading {
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(248, 153, 153);
+    border: 1px solid black;
+    padding: 2px;
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: -40px;
+}
+
+@media (orientation:portrait) {
+    .nav-tabs-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

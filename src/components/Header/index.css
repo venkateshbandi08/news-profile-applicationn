@@ -1,0 +1,13 @@
+.nav-items{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+}
+.navbar {
+margin-bottom: 20px;
+}
+
+.brand-hover:hover {
+    background-color: rgb(247, 214, 214);
+  }

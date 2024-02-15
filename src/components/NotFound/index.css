@@ -1,0 +1,13 @@
+.not-fount-bg-container {
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(245, 225, 225), rgb(247, 207, 207));
+  }
+.home-button{
+    margin-top: 20px;
+}
