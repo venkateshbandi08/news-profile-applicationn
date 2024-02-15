@@ -117,7 +117,7 @@ const App = () => (
   <BrowserRouter>
     <Header />
     <Routes>
-      <Route exact path='/home' element={<Home />} /> 
+      <Route exact path='/' element={<Home />} /> 
       <Route exact path='/profile' element={<Profile />} /> 
       <Route exact path='/settings' element={<Settings />} /> 
       <Route exact path='/profile/posts' element={<Posts postedNewsData={postedNewsData} />} />
