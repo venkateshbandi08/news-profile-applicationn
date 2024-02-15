@@ -7,7 +7,9 @@ import { FaUser, FaCog } from 'react-icons/fa'; // importing font-awsome icons
 const Header = () => (
   <Navbar expand="lg" className="bg-body-tertiary" fixed='top'> {/* making nav-bar to fix at the top of the page */}
     <Container>
-    <Navbar.Brand href="/home" className='brand-hover' style={{ border: '1px solid red', paddingLeft: '5px', paddingRight:'5px', borderRadius: '3px' }}>The Bharat News</Navbar.Brand>
+      <Link to='/' style={{textDecoration:'none'}}>
+      <Navbar.Brand className='brand-hover' style={{ border: '1px solid red', paddingLeft: '5px', paddingRight:'5px', borderRadius: '3px' }}>The Bharat News</Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
