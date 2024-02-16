@@ -2,6 +2,8 @@
 
 NewsProfileApp is a React application designed to showcase a user profile page with features commonly found in modern news applications. Users can view their profile information, navigate between different sections, and interact with news articles.
 
+Deployed Link : https://65ce9ad8bccff80008240271--singular-torte-bd01e3.netlify.app/
+
 
 https://github.com/venkateshbandi08/authentication-mocktest/assets/100306737/7e0557c5-d651-419b-948e-5dbfedbcd434
 
